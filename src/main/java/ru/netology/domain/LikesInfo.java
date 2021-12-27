@@ -3,10 +3,10 @@ package ru.netology.domain;
 import java.sql.Struct;
 
 public class LikesInfo {
-    private String countLikes;
-    private String countComments;
-    private String countRepost;
-    private String countViews;
+    private int count;
+    private boolean userLikes;
+    private boolean canLike;
+    private boolean canPublish;
 
     //getter+setter;
 }
